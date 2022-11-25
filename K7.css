@@ -1,0 +1,76 @@
+h1{
+	font-size: 25px;
+	color: white;
+}
+body{
+	background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=2000);
+    font-size: 25px;
+    background-position: ;
+    background-size: width 900px height 700px;
+    
+
+}
+p{
+	font-size: 25px;
+	color: rgb(0, 7, 7);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width: 1250px;
+    align:center;
+}
+h2{
+	color: rgb(10, 0, 0);
+}
+
+a{
+	color: rgb(5, 0, 0);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+	color: rgb(10, 0, 0);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ * {
+   
+
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37,37,39);  
+    
+
+}
+#menu-h ul{
+   display: inline;
+  
+
+}
+    
+#menu-h ul li{
+    display: inline-block;
+    padding: 30px;
+
+}
+
+#menu-h ul li a{
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    color: rgb(24, 139 , 233 );
+   
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    color: rgb(24, 139 , 233 );
+} 

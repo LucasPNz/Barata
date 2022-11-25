@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ * {
+   
+
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37,37,39);  
+    
+
+}
+#menu-h ul{
+   display: inline;
+  
+
+}
+    
+#menu-h ul li{
+    display: inline-block;
+    padding: 30px;
+
+}
+
+#menu-h ul li a{
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    color: rgb(24, 139 , 233 );
+   
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    color: rgb(24, 139 , 233 );
+} 
