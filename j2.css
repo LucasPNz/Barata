@@ -1,0 +1,79 @@
+h1{
+	font-size: 25px;
+	color: white;
+}
+body{
+	background-image: url(https://i.pinimg.com/originals/cb/75/08/cb75089d4437359724c28eede200cb53.png);
+    font-size: 25px;
+    background-position: center;
+    background-size: width 900px height 700px;
+    img: 200px;
+
+}
+p{
+	font-size: 45px;
+	color: 
+	rgb(243, 192, 205);
+
+}
+h2{
+	color: white;
+}
+
+h2{
+	color: rgb(10, 0, 0);
+}
+
+a{
+	color: rgb(5, 0, 0);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+	color: rgb(10, 0, 0);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ * {
+   
+
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37,37,39);  
+    
+
+}
+#menu-h ul{
+   display: inline;
+  
+
+}
+    
+#menu-h ul li{
+    display: inline-block;
+    padding: 30px;
+
+}
+
+#menu-h ul li a{
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    color: rgb(24, 139 , 233 );
+   
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    color: rgb(24, 139 , 233 );
+} 
